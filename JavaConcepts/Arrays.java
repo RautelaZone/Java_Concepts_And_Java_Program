@@ -9,6 +9,7 @@ public class Arrays {
         for(int i=0;i<nos.length;i++){
             System.out.println("Value "+i+" is: "+nos[i]);
         }
+
         System.out.println("Printing values using foreach loop...");
         System.out.println("Values are:");
         for(int value:nos) {

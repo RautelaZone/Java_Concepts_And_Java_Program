@@ -14,6 +14,7 @@ public class HashMapConcept {
         // can store n number of null values
         // can have only one null key-wont give error but latest value will be updated
         // can not use iterator directly to hashmap instead use it on keySet or keyValue
+        // Initial capacity of HashMap is 16(buckets/segments) with Load Factor 0.75
 
         HashMap<String,String> capitalMap = new HashMap<>();
         capitalMap.put("India","New Delhi");
